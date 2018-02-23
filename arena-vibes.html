@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TECHNOARENA 2K18</title>
+	 <link rel="icon" 
+      type="image/png" 
+      href="../assets/img/ta_logo.png" />
+    <meta name="description" content="Technoarena 2k18 is the 14th annual national level technical fest organised by the Govt. College of Engineering, Jalgaon. This events is a great platform for the students to show their technical skills. Do register for this event! It's on 6th & 7th March 2018. " >
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    <meta name="distribution" content="web">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="vendors/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <style type="text/css">
+        div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: white url('assets/img/zluz9tLG.gif') no-repeat center center; }
+        nav,#footer{
+            background-color: #040a21;color:white;
+            background: -webkit-linear-gradient(left, #040a21,#23547a); 
+            background: -moz-linear-gradient(left, #040a21,#23547a);    /* FF3.6+ */
+            background: linear-gradient(to left, #040a21,#23547a);
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/animate.min.css" >
+    <link href="assets/css/full-slider.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/events_page.css">
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <style type="text/css">
+       
+
+    </style>
+
+</head>
+	<body>
+		<div id="preloader"></div>
+	    <div class="navbar-fixed" style="position: fixed; top:0px;">
+	        <nav>
+	            <div class="nav-wrapper">
+	                <a href="#" class="brand-logo center"><img class="logo_img" src="assets/img/01.png"></a>
+	                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	                <ul id="nav-mobile" class="left hide-on-med-and-down">
+	                    <li><a href="events/" class="active"><b>EVENTS</b></a></li>
+	                    <li><a href="workshop/"><b>WORKSHOP</b></a></li>
+	                    <li><a href="puzzle-hunt/"><b>PUZZLE-HUNT</b></a></li>
+	                </ul>
+	                <ul id="nav-mobile" class="right hide-on-med-and-down">
+	                    <li><a href="#"><b>ARENA-VIBES</b></a></li>
+	                    <li><a href="team.html"><b>TEAM</b></a></li>
+	                    <li><a href="sponsors.html"><b>SPONSORS</b></a></li>
+	                </ul>
+	                <ul class="side-nav" id="mobile-demo">
+	                    <li><a href="events/"><b>EVENTS</b></a></li>
+	                    <li><a href="workshop/"><b>WORKSHOP</b></a></li>
+	                    <li><a href="puzzle-hunt/"><b>PUZZLE-HUNT</b></a></li>
+	                    <li><a href="#"><b>ARENA-VIBES</b></a></li>
+	                    <li><a href="team.html"><b>TEAM</b></a></li>
+	                    <li><a href="sponsors.html"><b>SPONSORS</b></a></li>
+	                </ul>
+	            </div>
+	        </nav>
+	    </div>
+	    <div class="parallax-container">
+			<div class="parallax">
+				<img src="assets/img/arenavibes.jpg">
+			</div>
+		</div>
+		<div class="container">
+	        <div class="col lg 8 offset-s6 anime wow slideInLeft">
+	            <p style="font-size: 1.25em;"> 
+	            	ARENA VIBES is a cultural programme arranged for all the participants for refreshment. After the full day of competition and evensts a cultural night programme to relax your mind nd enjoy the performances by the GCOEJ students. We assure you will like what you see here.  All the participants are allowed to be here .. So why to think... Just pack up and participate in TECHNOARENA 2K18 and also get to see a bunch of nice performances.. See you guys at ARENA VIBES....!! 
+	            </p>
+	        </div>
+		</div>
+		<div id="footer" class="offset-s6" style=" text-align: center; color: white; padding: 5px; ">
+        <h5>Copyright &copy; TECHNOARENA 2K18</h5>
+        <p>Designed with care <b><a href="https://sdc.gcoej.ac.in">SDC, GCOEJ</a></b></p>
+    </div>
+	<!-- <script src="../vendors/expand/js/imagesloaded.pkgd.min.js"></script> -->
+	<script src="vendors/jquery/jquery.js"></script>
+    <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+    <!-- <script src="vendors/fullpage//jquery.fullpage.min.js"></script> -->
+	<script type="text/javascript">
+        jQuery(document).ready(function($) {  
+
+            $(window).load(function(){
+                $('#preloader').fadeOut('slow',function(){$(this).remove();});
+            });
+            $(".button-collapse").sideNav();
+            $('.parallax').parallax();
+            // $('.carousel.carousel-slider').carousel({
+            //     fullWidth: true,
+            //     duration:200,
+            // });
+            // setInterval(function() {
+            //     $('.carousel.carousel-slider').carousel('next');
+            // }, 5000);
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+            //alert(scroll);
+            if (scroll >= 100) {
+                ///alert("added");
+                $("nav").addClass("darkHeader");
+            } else {
+                $("nav").removeClass("darkHeader");
+            }
+        });
+    </script>
+	</body>
+</html>

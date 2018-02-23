@@ -1,0 +1,28 @@
+ body{
+    font-family:'Open Sans'. 'inertb';
+}
+.logo_img{
+    height: 80px;
+    width:auto;
+}
+.darkHeader{
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+    background-color:black !important;
+    
+}
+.nav_bg2{
+    background:transparent !important;
+}
+@font-face {
+    font-family: 'inertb';
+    src: url('../fonts/inertb.ttf'); 
+}
+@media all and (max-width: 635px){
+     .logo_img{
+        height: auto;
+        width:100%;
+    }   
+}

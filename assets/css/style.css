@@ -1,0 +1,105 @@
+
+body {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  font-family:  serif;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/moon.png);
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: top right;
+}
+
+p {
+  font-size: 3rem;
+  text-align:center;
+  max-width: 60rem;
+  text-shadow: 0 0 10px rgba(222, 24, 96, 0.91);
+}
+
+q {
+  quotes: '\201c' '\201d';
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+/*ADDED LATER  02022017*/
+		@font-face {
+			font-family: 'morps';
+			src: url('../fonts/MORPHEUS.TTF'); 
+		}
+		@font-face {
+			font-family: 'harlowsolid';
+			src: url('../fonts/HARLOWSI.TTF'); 
+		}
+		@font-face {
+			font-family: 'vijaya';
+			src: url('../fonts/vijayab.ttf'); 
+		}
+		@font-face {
+			font-family: 'footlight';
+			src: url('../fonts/FTLTLT.TTF'); 
+		}
+		@font-face {
+			font-family: 'datefont';
+			src: url('../fonts/FTLTLT.TTF'); 
+		}
+		.event_name
+		{
+			font-size:4rem;
+			font-family:'morps';
+			text-decoration:underline;
+			text-align:center;
+		}
+		#demo-canvas {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.clg_name{
+			font-family:'footlight';
+			text-align:center;
+		}
+		.small{
+			font-family:'harlowsolid';
+			font-size:1.7rem;
+			text-align:center;
+		}
+		.desp{
+			font-family:'footlight';
+			display:block !important;
+			font-size:1.6rem;
+		}
+		.date{
+			font-family:'datefont';
+			display:block;
+			font-size:2rem;
+		}
+/**/
+@media all and (max-width: 850px) {
+  p {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+}
+@media all and (max-width: 500px) {
+  body {
+    background-position-y: -200px;
+    background-position-x: center;
+  }
+}

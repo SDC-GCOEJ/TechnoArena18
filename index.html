@@ -1,1 +1,80 @@
-Hello 
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>TechnoArena 2K18</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" 
+      type="image/png" 
+      href="assets/img/ta_logo.png" />
+    <meta name="description" content="Technoarena 2k18 is the 14th annual national level technical fest organised by the Govt. College of Engineering, Jalgaon. This events is a great platform for the students to show their technical skills. Do register for this event! It's on 6th & 7th March 2018. " >
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    <meta name="distribution" content="web">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" href="assets/css/TimeCircles.css">
+	<link rel="stylesheet" href="assets/css/style2.css">
+	<link rel="stylesheet" href="assets/css/animate.min.css" >
+	<link rel="stylesheet" type="text/css" href="vendors/inficanvas/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="vendors/inficanvas/css/demo.css" />
+	<script src="assets/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	
+</head>
+<body class="slideInUp" onclick="location.href='home.html'">
+	<div class="head-bar slideInUp">
+		<div class="navbar-header pull-left">
+			<img class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="height:60px;width:auto;" src="assets/img/ta_logo.png" title="TECHNO-ARENA - A National Level Technical Fest" />
+		</div>
+		<div class="navbar-header pull-right">
+			<img class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0.3s" src="assets/img/gcoej_logo.png" title="GCoE, Jalgaon" />
+		</div>
+	</div>
+	<div class="wow " data-wow-duration="1500ms" data-wow-delay="0.9s"   id="intro">
+		<canvas id="scene" style="position: absolute;top: 0;left: 0; z-index: -999;"></canvas>
+		<!-- <canvas id="demo-canvas"></canvas> -->
+		<p class="wow slideInDown" style="padding-top: 5%;" data-wow-duration="1s" data-wow-delay="0.9s" >
+			<span class="clg_name">GOVERNMENT COLLEGE OF ENGINEERING, JALGAON</span><br/>
+			<span class="small">presents</span><br/>
+			<!--q class="event_name"   data-wow-iteration="5" >TECHNO-ARENA 2K17</q-->
+			<img class="event_name event_name_img" src="assets/img/LOGO-min.png">
+			<span class="desp">A National Level Technical Fest</span><br>
+			<span class="date">ON 6<sup>th</sup> &amp; 7<sup>th</sup> March, 2018</span>
+			<br/>
+			<span id="DateCountdown" data-date="2018-03-6 09:00:00" style="display:block;width: 500px; height: 125px; padding: 0px;"></span>
+
+		</p><br>
+		<br>				
+	</div>
+	<script src="assets/js/jquery-3.1.0.js"></script>
+	<!-- <script src="assets/js/canvas.js"></script> -->
+	<script src="assets/js/wow.min.js"></script>
+	
+	<script src="assets/js/TimeCircles.js"></script>
+	<script src="vendors/inficanvas/js/vendors/three.min.js"></script>
+	<script src="vendors/inficanvas/js/vendors/TweenMax.min.js"></script>
+	<script src="vendors/inficanvas/js/demo3.js"></script>
+	
+	<script>
+		
+      $("#DateCountdown").TimeCircles(
+	  
+       {   
+           circle_bg_color: "#639094",
+           use_background: true,
+           bg_width: 1,
+           fg_width: 0.02,
+           time: {
+                Days: { color: "#fefeee" },
+                Hours: { color: "#fefeee" },
+                Minutes: { color: "#fefeee" },
+                Seconds: { color: "#fefeee" }
+            }
+       }
+    );
+    </script>
+
+</body>
+</html>
